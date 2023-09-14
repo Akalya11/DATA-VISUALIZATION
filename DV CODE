@@ -1,0 +1,8 @@
+data={'C':20,'C++':15,'Java':30,'Python':35}
+courses=list(data.keys())
+values=list(data.values())
+plt.bar(courses,values,color="pink",width=0.4)
+plt.xlabel("Courses offered")
+plt.ylabel("No.of students enrolled")
+plt.title("BAR CHART")
+plt.show()
