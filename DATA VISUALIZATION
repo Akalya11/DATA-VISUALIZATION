@@ -1,0 +1,14 @@
+ STACKED BAR GRAPH CODE:
+
+import matplotlib.pyplot as plt
+groups=['Group A','Group B','Group C','Group D']
+girls=[10,20,20,40]
+boys=[20,30,25,30]
+X=np.arange(len(groups))
+plt.bar(x,girls,label='Girls')
+plt.bar(x,boys,bottom=girls,label='Boys')
+plt.xlabel("Groups")
+plt.ylabel("No.of students")
+plt.title('STACKED BAR CHART')
+plt.legend()
+plt.show()
