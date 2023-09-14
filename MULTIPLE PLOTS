@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.array([1,2,3,4])
+y=x*2
+plt.plot(x,y)
+x1=[2,5,9,6]
+y1=[7,5,9,7]
+plt.plot(x,y1,'-*')
+plt.xlabel("X-axis data")
+plt.ylabel("Y-axis data")
+plt.title("MULTIPLE PLOTS")
+plt.fill_between(x,y,y1,color="pink",alpha=0.5)
+plt.show()
