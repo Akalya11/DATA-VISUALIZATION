@@ -1,0 +1,7 @@
+fruits=['apple','banana','mango','guava','watermelon']
+data=[23,45,25,89,63]
+fig=plt.figure(figsize=(10,7))
+
+plt.pie(data,labels=fruits)
+plt.title("PIE CHART")
+plt.show()
